@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: black;
+}
+
+body {
+  background: rgb(rgb(129, 37, 37));
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+header, footer { 
+  flex: none; 
+}
+
+main {
+  display: flex;
+  flex: 1 0 auto;
+}
+
+img {
+  height: 150px;
+}
+
+a {
+  text-decoration: none;
+}
